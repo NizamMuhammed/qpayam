@@ -23,12 +23,4 @@ export const productList = [
     id: 6,
     img: "https://images-eu.ssl-images-amazon.com/images/I/91-fa7AVCzL._AC._SR360,460.jpg",
   },
-  {
-    id: 7,
-    img: "https://images-eu.ssl-images-amazon.com/images/I/91-fa7AVCzL._AC._SR360,460.jpg",
-  },
-  {
-    id: 8,
-    img: "https://images-eu.ssl-images-amazon.com/images/I/91-fa7AVCzL._AC._SR360,460.jpg",
-  },
 ]

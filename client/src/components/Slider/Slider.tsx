@@ -21,7 +21,7 @@ const Slider = () => {
 
   //Function handling the onClick behaviour for slide change
   const handleClick = (direction: string) => {
-    if (direction === "left") {
+    if (direction === "right") {
       slideIndex < 2 ? setSlideIndex(slideIndex + 1) : setSlideIndex(0)
     } else {
       slideIndex > 0 ? setSlideIndex(slideIndex - 1) : setSlideIndex(2)

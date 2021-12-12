@@ -10,23 +10,29 @@ const Icon = styled.div`
   align-items: center;
   justify-content: center;
   margin: 5px;
-  opacity: 0;
   cursor: pointer;
 `
+const Info = styled.div`
+  opacity: 0;
+`
+const Image = styled.img`
+  height: 75%;
+`
+
 const Container = styled.div`
-  margin: 5px;
+  margin: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
   border-radius: 20px;
 
-  &:hover ${Icon} {
+  &:hover ${Info} {
     opacity: 1;
   }
-`
-const Image = styled.img`
-  height: 75%;
+  &:hover ${Image} {
+    opacity: 0.5;
+  }
 `
 
-export { Container, Image, Icon }
+export { Container, Image, Icon, Info }
