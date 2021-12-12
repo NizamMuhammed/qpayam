@@ -1,4 +1,9 @@
-//Slider template used in HomePage
+/*
+ * Slider template used in HomePage
+ *
+ * 'mui' / Material UI library is used for Icons
+ * Arrow Icons are imported from the library
+ */
 
 import React, { useState } from "react"
 import {
