@@ -1,3 +1,5 @@
+//Component to show the filters used in ProductList page
+
 import React from "react"
 import {
   Container,

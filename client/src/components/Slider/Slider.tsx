@@ -1,3 +1,5 @@
+//Slider template used in HomePage
+
 import React, { useState } from "react"
 import {
   Container,
