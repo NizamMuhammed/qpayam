@@ -1,5 +1,5 @@
-//These interfaces are required for sending props to Styled components
-//Usage can be found in Style files
+//These interfaces are required for sending props to child components
+//Usage can be found in parent files
 export interface IconProps {
   bg?: string
 }

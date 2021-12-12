@@ -1,20 +1,18 @@
 import React from "react"
 import Navbar from "../components/Navbar/Navbar"
-import FilterCategory from "../components/Filters/FilterCategory"
-import Products from "../components/Products/Products"
 import Newsletter from "../components/Newsletter/Newsletter"
 import Footer from "../components/Footer/Footer"
+import ProductPage from "../components/Product/Product.page"
 
-const ProductList = () => {
+const Product = () => {
   return (
     <div>
       <Navbar />
-      <FilterCategory />
-      <Products />
+      <ProductPage />
       <Newsletter />
       <Footer />
     </div>
   )
 }
 
-export default ProductList
+export default Product
