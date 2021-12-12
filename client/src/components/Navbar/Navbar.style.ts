@@ -3,7 +3,7 @@ import Badge from "@mui/material/Badge"
 
 const NavBarContainer = styled.div`
   height: 60px;
-  background-color: #edd2f3;
+  background-color: #f0e9d2;
   width: 100%;
 `
 
@@ -42,7 +42,7 @@ const Input = styled.input`
   background-color: none;
   outline: 0;
   border-radius: 5px;
-  background: #edd2f3;
+  background: #f0e9d2;
   width: 100%;
 `
 

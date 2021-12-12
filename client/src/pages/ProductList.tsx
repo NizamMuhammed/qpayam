@@ -1,17 +1,15 @@
 import React from "react"
 import Navbar from "../components/Navbar/Navbar"
-import Slider from "../components/Slider/Slider"
-import Categories from "../components/Categories/Categories"
+import FilterCategory from "../components/FilterCategory/FilterCategory"
 import Products from "../components/Products/Products"
 import Newsletter from "../components/Newsletter/Newsletter"
 import Footer from "../components/Footer/Footer"
 
-const Home = () => {
+const ProductList = () => {
   return (
     <div>
       <Navbar />
-      <Slider />
-      <Categories />
+      <FilterCategory />
       <Products />
       <Newsletter />
       <Footer />
@@ -19,4 +17,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default ProductList
