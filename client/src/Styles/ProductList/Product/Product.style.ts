@@ -9,8 +9,14 @@ const Icon = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5px;
+  margin: 10px 10px;
   cursor: pointer;
+  transition: all 0.5s ease;
+  &:hover {
+    transform: scale(1.1);
+    background-color: lightgray;
+    color: black;
+  }
 `
 const Info = styled.div`
   opacity: 0;
