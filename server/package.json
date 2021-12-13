@@ -1,0 +1,19 @@
+{
+  "name": "server-qpayam",
+  "version": "1.0.0",
+  "description": "Qpayam Backend / Server",
+  "main": "index.ts",
+  "scripts": {
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc"
+  },
+  "author": "Nizam Muhammed",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  }
+}
