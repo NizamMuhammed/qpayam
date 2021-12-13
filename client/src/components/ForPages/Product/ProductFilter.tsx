@@ -11,7 +11,7 @@ import {
   FilterTitle,
   FilterSizeOption,
   Filter,
-} from "./Product.page.style"
+} from "./ProductFilter.style"
 
 const ProductFilters = () => {
   return (

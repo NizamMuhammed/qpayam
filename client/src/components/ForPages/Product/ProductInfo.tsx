@@ -12,9 +12,9 @@ import {
   Title,
   InfoContainer,
   Description,
-} from "./Product.page.style"
-import ProductFilters from "../Filters/Product.page"
-import AddRemove from "../AddRemove/AddRemove"
+} from "./ProductInfo.style"
+import ProductFilters from "./ProductFilter"
+import AddRemove from "./AddRemove"
 
 const ProductPage = () => {
   return (
