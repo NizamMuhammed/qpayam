@@ -1,8 +1,3 @@
-/*
- * Component used in a Page
- * Hence, given the '.page' extension naming convention
- */
-
 import React from "react"
 import {
   Wrapper,
