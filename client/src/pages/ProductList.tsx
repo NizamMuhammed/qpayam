@@ -1,9 +1,9 @@
 import React from "react"
-import Navbar from "../components/Navbar/Navbar"
-import FilterCategory from "../components/Filters/FilterCategory"
-import Products from "../components/Products/Products"
-import Newsletter from "../components/Newsletter/Newsletter"
-import Footer from "../components/Footer/Footer"
+import Navbar from "../Components/Home/Navbar/Navbar"
+import FilterCategory from "../Components/ProductList/Filters/FilterCategory"
+import Products from "../Components/Home/Products/Products"
+import Newsletter from "../Components/Home/Newsletter/Newsletter"
+import Footer from "../Components/Home/Footer/Footer"
 
 const ProductList = () => {
   return (

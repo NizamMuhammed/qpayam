@@ -1,8 +1,8 @@
 import React from "react"
-import Navbar from "../components/Navbar/Navbar"
-import Newsletter from "../components/Newsletter/Newsletter"
-import Footer from "../components/Footer/Footer"
-import ProductPage from "../components/ForPages/Product/ProductInfo"
+import Navbar from "../Components/Home/Navbar/Navbar"
+import Newsletter from "../Components/Home/Newsletter/Newsletter"
+import Footer from "../Components/Home/Footer/Footer"
+import ProductPage from "../Components/Product/ProductInfo"
 
 const Product = () => {
   return (

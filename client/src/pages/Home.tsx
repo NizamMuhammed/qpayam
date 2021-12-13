@@ -1,10 +1,10 @@
 import React from "react"
-import Navbar from "../components/Navbar/Navbar"
-import Slider from "../components/Slider/Slider"
-import Categories from "../components/Categories/Categories"
-import Products from "../components/Products/Products"
-import Newsletter from "../components/Newsletter/Newsletter"
-import Footer from "../components/Footer/Footer"
+import Navbar from "../Components/Home/Navbar/Navbar"
+import Slider from "../Components/Home/Slider/Slider"
+import Categories from "../Components/Home/Categories/Categories"
+import Products from "../Components/Home/Products/Products"
+import Newsletter from "../Components/Home/Newsletter/Newsletter"
+import Footer from "../Components/Home/Footer/Footer"
 
 const Home = () => {
   return (
