@@ -20,7 +20,7 @@ const Navbar = () => {
       <Wrapper>
         <Left>
           <SearchContainer>
-            <Input />
+            <Input placeholder="Search" />
             <SearchIcon style={{ cursor: "pointer", fontSize: "16" }} />
           </SearchContainer>
         </Left>

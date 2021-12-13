@@ -1,15 +1,23 @@
 import styled from "styled-components"
 import Badge from "@mui/material/Badge"
+import mobile from "../../../responsiveDesign"
+
+const Container = styled.div`
+  width: 100%;
+  ${mobile({ width: "100%" })}
+`
 
 const NavBarContainer = styled.div`
   height: 60px;
   background-color: #97bfb4;
   width: 100%;
+  ${mobile({ display: "flex", alignItems: "center" })}
 `
 
 const Wrapper = styled.div`
   padding: 10px 20px;
   display: flex;
+  ${mobile({ padding: "0", alignItems: "center" })}
 `
 const Left = styled.div`
   flex: 1;
@@ -27,6 +35,7 @@ const Right = styled.div`
   align-items: center;
   display: flex;
   justify-content: flex-end;
+  ${mobile({ justifyContent: "start", width: "100%" })}
 `
 const SearchContainer = styled.div`
   border: 1px solid grey;
@@ -36,6 +45,7 @@ const SearchContainer = styled.div`
   margin-left: 5px;
   border-radius: 5px;
   width: 70%;
+  ${mobile({ width: "100%" })}
 `
 const Input = styled.input`
   border: none;
@@ -50,6 +60,7 @@ const Logo = styled.h1`
   font-weight: bold;
   margin: 0;
   padding: 0;
+  ${mobile({ fontSize: "25px" })}
 `
 
 const RightMenuItem = styled.div`
@@ -57,6 +68,11 @@ const RightMenuItem = styled.div`
   font-weight: bold;
   margin-right: 25px;
   cursor: pointer;
+  ${mobile({
+    fontSize: "12px",
+    marginRight: "0",
+    paddingLeft: "5px",
+  })}
 `
 
 const StyledBadge = styled(Badge)({
@@ -78,4 +94,5 @@ export {
   Logo,
   RightMenuItem,
   StyledBadge,
+  Container,
 }

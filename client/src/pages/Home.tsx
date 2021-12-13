@@ -5,17 +5,18 @@ import Categories from "../Components/Home/Categories/Categories"
 import Products from "../Components/Home/Products/Products"
 import Newsletter from "../Components/Home/Newsletter/Newsletter"
 import Footer from "../Components/Home/Footer/Footer"
+import { Container } from "../Styles/Home/Navbar/Navbar.style"
 
 const Home = () => {
   return (
-    <div>
+    <Container>
       <Navbar />
       <Slider />
       <Categories />
       <Products />
       <Newsletter />
       <Footer />
-    </div>
+    </Container>
   )
 }
 
