@@ -4,6 +4,7 @@
   "description": "Qpayam Backend / Server",
   "main": "index.ts",
   "scripts": {
+    "start": "npm run build && node build/index.js",
     "start:dev": "nodemon",
     "build": "rimraf ./build && tsc"
   },
