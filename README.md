@@ -19,26 +19,47 @@ You will also see any lint errors in the console.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### `Folder Structure`
+### Folder Structure
 
 > client
 >
 > > public
 >
-> > > index.html //the App HTML
+> > > index.html // the App HTML
 >
 > > src
 >
-> > > Components //Components used in the Pages
+> > > Components // Components used in the Pages
 >
-> > > Pages //Pages for the App
+> > > Pages // Pages for the App
 >
-> > > Styles //Styling for Pages and Components
+> > > Styles // Styling for Pages and Components
 >
-> > > App.tsx //File connected to index.tsx
+> > > App.tsx // File connected to index.tsx
 >
-> > > globalStyles //Styles used across the entire App
+> > > globalStyles // Styles used across the entire App
 >
-> > > index.tsx //Main Container HTML
+> > > index.tsx // Main Container HTML
 >
-> > > responsiveDesign.ts //Function for responsive design, Mobile
+> > > responsiveDesign.ts // Function for responsive design, Mobile
+
+### Tech Used
+
+#### `React`
+
+React JS is used to run the front-end
+
+#### `Styled-Components`
+
+A better CSS library than vanilla CSS.\
+Can create components with custom naming,
+
+#### `Material UI`
+
+Can use Material Icons.\
+Easier than implementing images and icons.
+
+#### `TypeScript`
+
+Used for development. Build files are in JS.\
+.helper extensions are used for creating interfaces and types
