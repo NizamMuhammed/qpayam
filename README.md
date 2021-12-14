@@ -150,11 +150,11 @@ Storing the collections and data.
 
 Register
 
-[localhost:8000/api/auth/register](localhost:8000/api/auth/register)
+[http://localhost:8000/api/auth/register](http://localhost:8000/api/auth/register)
 
 Login
 
-[localhost:8000/api/auth/login](localhost:8000/api/auth/login)
+[http://localhost:8000/api/auth/login](http://localhost:8000/api/auth/login)
 
 #### `Users`
 
@@ -164,22 +164,22 @@ Login
 
 updateUser
 
-[localhost:8000/api/users/:id](localhost:8000/api/users/:id)
+[http://localhost:8000/api/users/:id](http://localhost:8000/api/users/:id)
 
 //Need Admin privileges
 
 getUser
 
-[localhost:8000/api/users/:id](localhost:8000/api/users/:id)
+[http://localhost:8000/api/users/:id](http://localhost:8000/api/users/:id)
 
 getAllUsers
 
-[localhost:8000/api/users/](localhost:8000/api/users/)
+[http://localhost:8000/api/users/](http://localhost:8000/api/users/)
 
 getUsersUsingQuery
 
-[localhost:8000/api/users?new=true](localhost:8000/api/users?new=true) //Check file for details
+[http://localhost:8000/api/users?new=true](http://localhost:8000/api/users?new=true) //Check file for details
 
 deleteuser
 
-[localhost:8000/api/users/:id](localhost:8000/api/users/:id)
+[http://localhost:8000/api/users/:id](http://localhost:8000/api/users/:id)
