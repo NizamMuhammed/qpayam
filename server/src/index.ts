@@ -28,7 +28,7 @@ app.use(morgan("dev")) //Used to Log HTTP Requests
 app.use(express.json()) //Converting to JSON Format
 
 //Use routes
-app.use("/api/", (req, res) => {
+app.get("/api/", (req, res) => {
   res.send("Server is up and running...")
 })
 
