@@ -22,7 +22,7 @@ const loginUser = async (req: Request, res: Response) => {
             id: user._id,
             isAdmin: user.isAdmin,
           },
-          process.env.JWT_SERET || "",
+          process.env.JWT_SECRET || "",
           { expiresIn: "3d" }
         )
         res.status(200).json({
