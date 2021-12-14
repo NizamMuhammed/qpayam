@@ -22,13 +22,17 @@ It correctly bundles React in production mode and optimizes the build for the be
 ### `Folder Structure`
 
 |--client\
-|--public\
-|--index.html //the App HTML\
-|--src\
-|--Components //Components used in the Pages\
-|--Pages //Pages for the App\
-|--Styles //Styling for Pages and Components\
-|--App.tsx //File connected to index.tsx\
-|--globalStyles //Styles used across the entire App\
-|--index.tsx //Main Container HTML\
-|--responsiveDesign.ts //Function for responsive design, Mobile\
+
+> |--public\
+>
+> > > |--index.html //the App HTML\
+>
+> |--src\
+>
+> > > |--Components //Components used in the Pages\
+> > > |--Pages //Pages for the App\
+> > > |--Styles //Styling for Pages and Components\
+> > > |--App.tsx //File connected to index.tsx\
+> > > |--globalStyles //Styles used across the entire App\
+> > > |--index.tsx //Main Container HTML\
+> > > |--responsiveDesign.ts //Function for responsive design, Mobile\
