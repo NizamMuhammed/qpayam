@@ -16,7 +16,7 @@ const LoginContainer = () => {
       <Wrapper>
         <Title>SIGN IN</Title>
         <Form>
-          <Input placeholder="Username/EmailID"></Input>
+          <Input placeholder="EmailID"></Input>
           <Input placeholder="Password"></Input>
         </Form>
         <Button>Sign In</Button>

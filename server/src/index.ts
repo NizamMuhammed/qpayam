@@ -2,7 +2,8 @@ import express from "express"
 import dotenv from "dotenv"
 import mongoose from "mongoose"
 import morgan from "morgan"
-import userRouter from "./routes/users/user"
+import userRoute from "./routes/user/user"
+import authRoute from "./routes/auth/auth"
 
 const app = express() //Express App
 dotenv.config() //Using dotenv library
@@ -27,4 +28,5 @@ app.use(morgan("dev")) //Used to Log HTTP Requests
 app.use(express.json()) //Converting to JSON Format
 
 //Use routes
-app.use("/api/users", userRouter)
+app.use("/api/users", userRoute) //API Route for Users
+app.use("/api/auth", authRoute) //API Route for Register and SignIn
