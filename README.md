@@ -22,7 +22,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 ### `Folder Structure`
 
 > client
-> public
+>
+> > public
 >
 > > index.html //the App HTML
 >
