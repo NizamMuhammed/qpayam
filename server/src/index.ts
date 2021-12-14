@@ -4,6 +4,7 @@ import mongoose from "mongoose"
 import morgan from "morgan"
 import userRoute from "./routes/user/user"
 import authRoute from "./routes/auth/auth"
+import productRoute from "./routes/product/product"
 
 const app = express() //Express App
 dotenv.config() //Using dotenv library
@@ -35,3 +36,5 @@ app.get("/api/", (req, res) => {
 app.use("/api/users", userRoute) //API Route for Users
 
 app.use("/api/auth", authRoute) //API Route for Register and SignIn
+
+app.use("/api/products", productRoute) //API Route for product management
