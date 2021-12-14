@@ -28,5 +28,10 @@ app.use(morgan("dev")) //Used to Log HTTP Requests
 app.use(express.json()) //Converting to JSON Format
 
 //Use routes
+app.use("/api/", (req, res) => {
+  res.send("Server is up and running...")
+})
+
 app.use("/api/users", userRoute) //API Route for Users
+
 app.use("/api/auth", authRoute) //API Route for Register and SignIn
