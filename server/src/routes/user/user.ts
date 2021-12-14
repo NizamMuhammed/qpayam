@@ -9,7 +9,11 @@ import getAll from "../../controllers/user/getAll"
 
 const router = express.Router()
 
-//Update User credentials
+/* Update User credentials
+ * Functions are called in a sequential manner
+ * After success of first function, the next() is called
+ * Then the final function
+ */
 
 router.put("/:id", verifyToken, verifyAuth, updateUser)
 

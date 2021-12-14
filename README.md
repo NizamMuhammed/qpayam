@@ -47,7 +47,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 #### `React`
 
-React JS is used to run the front-end
+React JS is used to run the front-end.
 
 #### `Styled-Components`
 
@@ -62,7 +62,7 @@ Easier than implementing images and icons.
 #### `TypeScript`
 
 Used for development. Build files are in JS.\
-.helper extensions are used for creating interfaces and types
+.helper extensions are used for creating interfaces and types.
 
 ## Back-End
 
@@ -83,11 +83,11 @@ Builds the app for production to the `build` folder.
 >
 > > src
 >
-> > > controllers // Components used in the Pages
+> > > controllers // Methods used by Routes
 >
-> > > models // Pages for the App
+> > > models // Schema for the DB, using mongoose
 >
-> > > routes // Styling for Pages and Components
+> > > routes // Routes used for various usages
 >
 > > > index.ts // Server entry point
 >
@@ -99,21 +99,87 @@ Builds the app for production to the `build` folder.
 
 ### Tech Used
 
-#### `React`
+#### `NodeJS`
 
-React JS is used to run the front-end
+Server is managed by Node.
 
-#### `Styled-Components`
+#### `mongoose`
 
-A better CSS library than vanilla CSS.\
-Can create components with custom naming,
+Connection to Mongo DB is managed using the library.
 
-#### `Material UI`
+#### `express`
 
-Can use Material Icons.\
-Easier than implementing images and icons.
+Routing and CRUD operations.
 
 #### `TypeScript`
 
-Used for development. Build files are in JS.\
-.helper extensions are used for creating interfaces and types
+Used for development. Build files are in JS.
+
+#### `bcrypt`
+
+Hashing password
+
+#### `jsonwebtoken`
+
+Tokens are given for sessions and Authorisation.
+
+#### `morgan`
+
+To console the CRUD operations.
+
+#### `nodemon`
+
+Restarting the Server after file changes.
+
+#### `rimraf`
+
+To eject the old build folder.\
+Used in production.
+
+#### `ts-node`
+
+Compile .ts files without building the entire App.
+
+#### `Mongo DB Atlas`
+
+Storing the collections and data.
+
+### Routes
+
+#### `Auth`
+
+Register
+
+[localhost:8000/api/auth/register](localhost:8000/api/auth/register)
+
+Login
+
+[localhost:8000/api/auth/login](localhost:8000/api/auth/login)
+
+#### `Users`
+
+//Need Token validation for all
+
+//Need authorisation
+
+updateUser
+
+[localhost:8000/api/users/:id](localhost:8000/api/users/:id)
+
+//Need Admin privileges
+
+getUser
+
+[localhost:8000/api/users/:id](localhost:8000/api/users/:id)
+
+getAllUsers
+
+[localhost:8000/api/users/](localhost:8000/api/users/)
+
+getUsersUsingQuery
+
+[localhost:8000/api/users?new=true](localhost:8000/api/users?new=true) //Check file for details
+
+deleteuser
+
+[localhost:8000/api/users/:id](localhost:8000/api/users/:id)
